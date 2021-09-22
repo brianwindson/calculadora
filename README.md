@@ -1,4 +1,3 @@
-# calculadora
 <html>
 <CENTER>
 <FORM NAME="Calculadora">
