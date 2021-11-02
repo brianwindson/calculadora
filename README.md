@@ -4,6 +4,6 @@ https://dweet.io:443/dweet/for/Calculadora
 
 Time: Hefesto Team
 
-Kelvyn Santos
-Brian 
+Kelvyn Santos,
+Brian e  
 Nathalia Silva 
