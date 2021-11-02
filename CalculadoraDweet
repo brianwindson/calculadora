@@ -1,62 +1,35 @@
-<!DOCTYPE html>
-<html>
- <head>
-    <title>Apostila JavaScript Progressivo</title>
-    <script type="text/javascript" src="script.js"></script>
- </head>
- <body>
-  Numero 1:<input id="num1" type="number"> <br />
-  Numero 2:<input id="num2" type="number"> <br />
-  <input type="radio" name="calc" id="soma"/> Soma<br />
- <input type="radio" name="calc" id="subtracao"/> Subtração<br />
- <input type="radio" name="calc" id="multiplicacao"/> Multiplicação<br />
- <input type="radio" name="calc" id="divisao"/> Divisão<br />
- <button onclick="main()">Calcular</button><br />
- Resposta: <div id="resp"></div>
- </body>
-</html>
+'use estrito' ;
 
-«««javascript««
+módulo . exportações  =  ( função ( )  {
 
-function main()
-{
- var resp = document.getElementById('resp');
- var num1 = parseFloat(document.getElementById("num1").value);
- var num2 = parseFloat(document.getElementById("num2").value);
- var texto='';
+  var  Calculadora  =  {
 
- if(document.getElementById('soma').checked)
-  texto = soma(num1, num2);
- if(document.getElementById('subtracao').checked)
-  texto = subtracao(num1, num2);
- if(document.getElementById('multiplicacao').checked)
-  texto = multiplicacao(num1, num2);
- if(document.getElementById('divisao').checked)
-  texto = divisao(num1, num2);
+    somar : function ( )  {
+      var  soma  =  0 ,  i  =  indefinido ;
+      para (  i = 0 ;  i  <  argumentos . comprimento ;  i ++  )
+        soma  + =  argumentos [ i ] ;
 
- resp.innerHTML = texto;
-}
+      retornar  soma ;
+    } ,
 
-function soma(x, y)
-{
-  
-  return (x+y);
-}
+    subtrair : function ( numero1 ,  numero2 )  {
+      retornar  numero1  -  numero2 ;
+    } ,
 
-function subtracao(x, y)
-{
-  
-  return (x-y);
-}
+    multiplicar : function ( )  {
+      var  multiplicacao  =  argumentos [ 0 ] ,  i  =  indefinido ;
+      para (  i = 1 ;  i  <  argumentos . comprimento ;  i ++  )
+        multiplicacao  * =  argumentos [ i ] ;
 
-function multiplicacao(x, y)
-{
-  
-  return (x*y);
-}
+      return  multiplicacao ;
+    } ,
 
-function divisao(x, y)
-{
-  
-  return (x/y);
-}
+    dividir : function ( numero1 ,  numero2 )  {
+      return  numero1  /  numero2 ;
+    }
+
+  } ;
+
+  return  Calculadora ;
+
+} ) ( ) ;
