@@ -24,29 +24,29 @@
 			<INPUT TYPE="button" NAME="square"
 			VALUE="&#8730 " onClick="raiz()"
 			<BR>
-			<INPUT TYPE="button" NAME="four"
+			<INPUT TYPE="button" NAME="numero"
 			 VALUE="  4  " onClick="Calculadora.Input.value += '4'">
-			 <INPUT TYPE="button" NAME="five"
+			 <INPUT TYPE="button" NAME="numero"
 			 VALUE="  5  " onClick="Calculadora.Input.value += '5'">
-			 <INPUT TYPE="button" NAME="six"
+			 <INPUT TYPE="button" NAME="numero"
 			 VALUE="  6  " onClick="Calculadora.Input.value += '6'">
 			
 			<BR>
-			 <INPUT TYPE="button" NAME="seven"
+			 <INPUT TYPE="button" NAME="numero"
 			 VALUE="  7  " onClick="Calculadora.Input.value += '7'">
-			 <INPUT TYPE="button" NAME="eight"
+			 <INPUT TYPE="button" NAME="numero"
 			 VALUE="  8  " onClick="Calculadora.Input.value += '8'">
-			 <INPUT TYPE="button" NAME="nine"
+			 <INPUT TYPE="button" NAME="numero"
 			 VALUE="  9  " onClick="Calculadora.Input.value += '9'">
 			 
 			<BR>
-			<INPUT TYPE="button" NAME="one"
+			<INPUT TYPE="button" NAME="numero"
 			VALUE="  1  " onClick="Calculadora.Input.value += '1'">
-			<INPUT TYPE="button" NAME="two"
+			<INPUT TYPE="button" NAME="numero"
 			VALUE="  2  " onClick="Calculadora.Input.value += '2'">
-			<INPUT TYPE="button" NAME="three"
+			<INPUT TYPE="button" NAME="numero"
 			VALUE="  3  " onClick="Calculadora.Input.value += '3'">
-			<INPUT TYPE="button" NAME="zero"
+			<INPUT TYPE="button" NAME="numero"
 			 VALUE="  0  " onClick="Calculadora.Input.value += '0'">
 			 <INPUT TYPE="button" NAME="DoIt"
 			 VALUE="  =  " onClick="Calculadora.Input.value = eval(Calculadora.Input.value)">
